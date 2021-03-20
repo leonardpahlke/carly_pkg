@@ -1,10 +1,11 @@
 package carly_pkg
 
 import (
-	log "github.com/sirupsen/logrus"
 	"os"
 	"strconv"
 	"strings"
+
+	log "github.com/sirupsen/logrus"
 )
 
 func LogInfo(methodName string, logMessage string) {

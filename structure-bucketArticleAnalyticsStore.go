@@ -33,11 +33,11 @@ type BucketAnalytics_COMPREHEND_sentiment struct {
 
 type BucketAnalytics_COMPREHEND_sentiment_scoredetails struct {
 	// shows percentage of confidence if this sentence has a mixed sentiment
-	Mixed    float64
+	Mixed float64
 	// shows percentage of confidence if this sentence has a negative sentiment
 	Negative float64
 	// shows percentage of confidence if this sentence has a neutral sentiment
-	Neutral  float64
+	Neutral float64
 	// shows percentage of confidence if this sentence has a positive sentiment
 	Positive float64
 }

@@ -1,4 +1,4 @@
-module github.com/leonardpahlke/carly_config
+module carly_pkg
 
 go 1.15
 
